@@ -5,6 +5,4 @@ instructions:
 
 to clone this repo, all you have to do is to run
 
-git clone x
-
-x is your SSH or HTTP
+git clone git@github.com:mohammad1kod/Cv_System.git
