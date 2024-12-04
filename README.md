@@ -15,9 +15,8 @@ xxxxxx
 
  this is mohamad code, 50% ready feautre.
 
- 1.  pull latest from remote and apply local commits(unpushed) on top of the latest pull,  =============> 1. Git pull -rebase origin >>(auto stash).
+ 1. save this(uncommitted changes) , but remove from local(stash), and pull lates,  =============> 1. Git pull -rebase >>(auto stash).
  
-
  2. merge(wither we face conflict or not) this to local, and pull ======>2. git pull --no-rebase (auto merge)
 
  somtimes, merge conflicts fails to auto resolve, in this case, do git commit to resolve conflict in VIM(most likley)
@@ -30,4 +29,3 @@ xxxxxx
  note: any merge mean internally, 1. commit 2. you might face conflict and must resolve them. x  
 
  
-this is my version of the code, /moahmmad //to be stashed
